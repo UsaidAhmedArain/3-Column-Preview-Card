@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;400;700&family=Fira+Sans&family=IBM+Plex+Sans&family=Lexend+Deca&family=Montserrat&family=Poppins:ital,wght@0,700;1,400;1,800&family=Red+Hat+Text:wght@700&family=Roboto+Mono:wght@700&family=Space+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Epilogue:wght@200;400;700&family=Fira+Sans&family=IBM+Plex+Sans&family=Lexend+Deca&family=Montserrat&family=Poppins:ital,wght@0,700;1,400;1,800&family=Red+Hat+Text:wght@700&family=Roboto+Mono:wght@700&family=Space+Mono:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    border-radius: 30px;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 450px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.first-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(184, 100%, 22%);
+    width: 300px;
+    height: 450px;
+}
+
+.second-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.third{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(179, 100%, 13%);
+    width: 300px;
+    height: 450px;
+}
+
+.third-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.headings{
+    font-family: 'Big Shoulders Display', cursive;
+    color: white;
+    text-transform: uppercase;
+}
+
+.text{
+    font-size: 14px;
+    color: hsl(0, 0%, 100%, 0.75);
+    max-width: 220px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+.btn{
+    padding: 10px 30px;
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    background-color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 90px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+#btn1{
+    color: hsl(31, 77%, 52%);
+}
+
+#btn2{
+    color: hsl(184, 100%, 22%);
+}
+
+#btn3{
+    color: hsl(179, 100%, 13%);
+}
+
+#btn1:hover{
+    background-color: transparent;
+    color: white;
+}
+
+
+#btn2:hover{
+    background-color: transparent;
+    color: white;
+}
+
+
+#btn3:hover{
+    background-color: transparent;
+    color: white;
+}
+
+@media screen and (max-width:908px) {
+    .main-container{
+        flex-direction: column;
+        margin-top:20px;
+    } 
+}
